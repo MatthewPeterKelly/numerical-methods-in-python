@@ -1,2 +1,8 @@
 #Image files:
-*.png
+**/*.png
+**/*.svg
+
+#Byte code:
+**/*.pyc
+**/*.pyo
+

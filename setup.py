@@ -3,6 +3,9 @@ from setuptools import setup
 # Based on code from:
 # http://python-packaging.readthedocs.io/en/latest/minimal.html
 
+# Run using the command:
+#    $pip install .
+
 setup(name='numerical_methods',
       version='0.1',
       description='Numerical methods in python',
