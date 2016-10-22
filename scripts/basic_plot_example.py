@@ -3,6 +3,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# EXAMPLE FROM:  http://matplotlib.org/examples/pylab_examples/simple_plot.html
 
 def main():
     """
