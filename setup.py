@@ -8,4 +8,8 @@ setup(name='numerical_methods',
       author_email='matthew.kelly2@gmail.com',
       license='MIT',
       packages=['numerical_methods'],
+      install_requires=[
+          'matplotlib',
+          'numpy'
+      ],
       zip_safe=False)
