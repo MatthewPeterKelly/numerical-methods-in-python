@@ -1,10 +1,9 @@
-from setuptools import setup
+#!/usr/bin/env python
 
-# Based on code from:
-# http://python-packaging.readthedocs.io/en/latest/minimal.html
+# linux:  $ python setup.py install --user
 
-# Run using the command:
-#    $pip install .
+from distutils.core import setup
+
 
 setup(name='numerical_methods',
       version='0.1',

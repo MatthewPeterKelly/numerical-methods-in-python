@@ -3,8 +3,10 @@
 from numerical_methods import RectangleQuadrature
 from numerical_methods import HelloWorld
 
+
 def test_function(x):
     return x*x
+
 
 def main():
 

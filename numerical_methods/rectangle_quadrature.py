@@ -1,5 +1,6 @@
 from .quadrature_method import QuadratureMethod
 
+
 class RectangleQuadrature(QuadratureMethod):
     """
     Perform numerical integration (quadrature) using the rectangle rule

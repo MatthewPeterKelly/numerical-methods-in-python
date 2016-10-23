@@ -1,5 +1,6 @@
 from abc import ABCMeta, abstractmethod
 
+
 class QuadratureMethod(object):
     """
     An abstract super-class for all quadrature methods
