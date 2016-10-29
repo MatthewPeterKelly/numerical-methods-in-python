@@ -6,20 +6,24 @@ import numpy as np
 # EXAMPLE FROM:  http://matplotlib.org/examples/pylab_examples/simple_plot.html
 
 
+def curvy_function(t):
+    return t*np.sin(2*np.pi*t) + 0.2*np.cos(7*np.pi*t)
+
+
 def main():
     """
-    Draw a simple plot of a sine curve
+    Draw an interesting function
     """
 
-    t = np.arange(0.0, 2.0, 0.01)
-    s = np.sin(2*np.pi*t)
+    t = np.linspace(0.0, 1.0, 50)
+    s = curvy_function(t)
     plt.plot(t, s)
 
     plt.xlabel('time (s)')
-    plt.ylabel('voltage (mV)')
-    plt.title('About as simple as it gets, folks')
+    plt.ylabel('position (m)')
+    plt.title('a curvy plot!')
     plt.grid(True)
-    plt.savefig("test.png")
+    # plt.savefig("curvy_plot.png")
     plt.show()
 
 
