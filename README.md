@@ -7,4 +7,4 @@ This project is still under development.
 
 ## installation:  (tested on Ubuntu)
 From this directory:
-`$python setup.py install --user.`
+`$python setup.py install --user`
