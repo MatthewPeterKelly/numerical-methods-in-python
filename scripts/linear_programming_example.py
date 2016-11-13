@@ -34,8 +34,7 @@ def main():
 
     print('\n')
     print('*********************************')
-    print('Example from Math Stack Exchange:')
-    print('http://math.stackexchange.com/questions/2011787/linear-programming-excercise')
+    print('Second Example:')
     print('*********************************')
     print('Minimize: [1;2;3] * x')
     print('Subject to:')
