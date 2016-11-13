@@ -34,15 +34,21 @@ def main():
 
     print('\n')
     print('*********************************')
-    print('Second Example:')
+    print('Infeasible Example:')
+    print('  http://math.stackexchange.com/questions/2011787/linear-programming-excercise/')
     print('*********************************')
     print('Minimize: [1;2;3] * x')
     print('Subject to:')
-    print(    '[[0,0,-3]; [-1, 1, 3]; [1,2,-3]] * x <= [-3; 4; -6]')
-    print(    'x >= 0')
-    c = [1, 2, 3]
-    A = [[0,0,-3], [-1, 1, 3], [1,2,-3]]
-    b = [-3, 4, 6]
+    print(    'x1 + 3*x3 >= 3')
+    print(    '-x1 + x2 + 3*x3 <= 4')
+    print(    'x1 + 2*x2 - 3*x3 <= -6')
+    print(    'x1 >= 0')
+    print(    'x2 >= 0')
+    print(    'x3 >= 0')
+    c = [1, 2, 3]  # objective function
+    # Inequality constraint matrix. Note that first inequality is negated.
+    A = [[-1,0,-3], [-1, 1, 3], [1,2,-3]]
+    b = [-3, 4, -6]
     x0_bnd = (0, None)
     x1_bnd = (0, None)
     x2_bnd = (0, None)
