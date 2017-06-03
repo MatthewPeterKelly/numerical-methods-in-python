@@ -9,7 +9,7 @@ def test_function(x):
 
 def main():
     """
-    Demonstrates how to use rectangle quadrature to compute the integral of
+    Demonstrates how to use Midpoint quadrature to compute the integral of
     x^2 on the domain [0,1]. Compute the solution for a a range of different
     segment counts.
     """
